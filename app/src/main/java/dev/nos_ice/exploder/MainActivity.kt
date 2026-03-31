@@ -90,10 +90,10 @@ fun CommandTextField() {
                 commandText = it.replace(Regex("[^+-]"), "")
                 prefs.edit { putString("command_text", it) }
             },
-            label = { Text("ダイアログ終了コマンド") }
+            label = { Text("カウントダウン終了コマンド") }
         )
         Text(
-            text = "音量ボタンを押してダイアログを閉じます\n" +
+            text = "音量ボタンを押してカウントダウンを閉じます\n" +
                     "音量+の場合は「+」、音量-の場合は「-」を押す順番に入力してください",
             style = MaterialTheme.typography.bodySmall
         )
