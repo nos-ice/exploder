@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exploder</string>
+    <string name="title_activity_main">Exploder</string>
+    <string name="title_activity_blackout">BlackoutActivity</string>
+</resources>
